@@ -20,7 +20,10 @@ export default function NavBar() {
             href="/home"
             style={{ color: "#6a11cb", textDecoration: "none" }}
           >
-            Vechicle ShowRooms App
+           <img
+            src="https://img.freepik.com/premium-vector/rent-car-logo-design-concept-vector-art-illustration_761413-36213.jpg?w=996" // Replace with the actual path to your logo
+            style={{ height: "60px", width: "auto" }}
+          />
           </a>
           <button
             className="navbar-toggler"
